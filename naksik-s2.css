@@ -1,0 +1,49 @@
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+#main-title{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+#main-title *{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#alter {
+	border: 1px solid;
+	width: 40%;
+	max-width: 400px;
+	margin: auto;
+	height: 150px;
+}
+
+#change_button {
+	width: 100px;
+	height: 50px;
+	background-color: orange;
+	color: white;	
+	border: 0;
+}
+
+#alter form {
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+}
+
+#alter form *{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#changepw{
+	display: flex;
+}
+#changepw-right{
+	margin-left: 10px;
+}

@@ -1,0 +1,80 @@
+#super-container{
+	display: flex;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-title{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+#main-title *{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#upper-div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#menu {
+	height: 50px;
+	width: 100px;
+	background-color: orange;
+	color: white;
+}
+#welcome {
+	border: 1px solid;
+	height: 100px;
+	width: 250px;
+	text-align: center;
+	margin-top: 20px;
+}
+#board {
+	display: flex;
+	justify-content: space-between;
+}
+
+#board form {
+	margin-top: 10px;
+}
+
+#lunch {
+	border: 1px solid;
+	float: left;
+	width: 49%;
+	max-width: 500px;
+	margin-right: 2%;
+    padding: 20px 0;
+    background-color: #59b1f6;
+    color: white;
+    text-align: center
+}
+#dinner {
+	border: 1px solid;
+	float: left;
+    width: 49%;
+    max-width: 500px;
+    padding: 20px 0;
+    background-color: #ffb5b4;
+    color: white;
+    text-align: center;
+}
+
+.comment-window{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 20%;
+	padding-right: 20%;
+}
