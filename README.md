@@ -1,3 +1,3 @@
-# naksik
+# Nak-Sik
 Feedback website for school meal of Naksaeng High school, founded due to tasteless, and unchanging quality of the school meal.
-Initially made in 2017.
+Initially made in 2017.Cancel changes
